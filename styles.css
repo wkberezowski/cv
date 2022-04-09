@@ -1,0 +1,80 @@
+body {
+  background: #f5f7fa;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  background: #1e2939;
+  color: #ffffff;
+  padding: 30px 0px 0px 0px;
+}
+
+aside a {
+  color: white;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.5;
+}
+
+aside li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  list-style: none;
+}
+
+aside li::before {
+  content: '\2022';
+  color: #fb6d3a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -30px;
+}
+
+.aside-content {
+  padding: 20px 0px 0px 30px;
+}
+.main-description {
+  margin: 30px 20px 10px 20px;
+  padding: 10px 20px;
+}
+
+.project-description {
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px;
+}
+
+.project-description li {
+  color: #595959;
+}
+
+.work-description {
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px;
+}
+
+.education-description {
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px;
+}
+
+.date {
+  color: #a8a8a8;
+}
+
+.highlight {
+  color: #fb6d3a;
+}
