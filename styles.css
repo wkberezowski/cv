@@ -14,67 +14,53 @@ body {
 }
 
 aside {
+  width: 370px;
   background: #1e2939;
   color: #ffffff;
-  padding: 30px 0px 0px 0px;
 }
 
-aside a {
-  color: white;
-  font-style: normal;
+.cv-photo {
+  margin-top: 25px;
+}
+
+.header-secondary {
+  color: #ffffff;
+}
+
+.contact-links {
+  color: #ffffff;
   font-size: 14px;
   line-height: 24px;
-  opacity: 0.5;
 }
 
-aside li {
-  font-style: normal;
-  font-weight: 400;
+.bold {
+  font-weight: 700;
+}
+
+.list-secondary {
+  color: #fb6d3a;
   font-size: 14px;
   line-height: 24px;
-  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
 }
 
-aside li::before {
-  content: '\2022';
-  color: #fb6d3a;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -30px;
+.list-secondary-item {
+  color: #ffffff;
 }
 
-.aside-content {
-  padding: 20px 0px 0px 30px;
-}
-.main-description {
-  margin: 30px 20px 10px 20px;
-  padding: 10px 20px;
+.contact-block {
+  margin-top: 51px;
+  margin-left: 40px;
 }
 
-.project-description {
-  margin: 10px 20px 10px 20px;
-  padding: 10px 20px;
+.tech-skills-block {
+  margin-top: 47px;
+  margin-left: 40px;
 }
 
-.project-description li {
-  color: #595959;
-}
-
-.work-description {
-  margin: 10px 20px 10px 20px;
-  padding: 10px 20px;
-}
-
-.education-description {
-  margin: 10px 20px 10px 20px;
-  padding: 10px 20px;
-}
-
-.date {
-  color: #a8a8a8;
-}
-
-.highlight {
-  color: #fb6d3a;
+.soft-skills-block {
+  margin-top: 44px;
+  margin-left: 40px;
 }
